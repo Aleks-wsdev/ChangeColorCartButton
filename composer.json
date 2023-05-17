@@ -1,0 +1,42 @@
+{
+  "name": "aleks-wsdev/plugin-change-color-cart-button",
+  "description": "A plugin for Shopware 6 that changes the color of the 'Add to Cart' button.",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "aleks-wsdev",
+      "email": "websiteservise@gmail.com"
+    }
+  ],
+  "require": {
+    "shopware/core": "~6.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AleksWsdev\\ChangeColorCartButton\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "AleksWsdev\\ChangeColorCartButton\\ChangeColorCartButton",
+    "plugin-icon": "src/Resources/config/plugin.png",
+    "copyright": "(c) by Aleks-wsdev <websiteservise@gmail.com>",
+    "label": {
+      "de-DE": "Ein Plugin für Shopware 6, das die Farbe des „In den Warenkorb“-Buttons ändert",
+      "en-GB": "A plugin for Shopware 6 that changes the color of the 'Add to Cart' button "
+    },
+    "description": {
+      "de-DE": "Ein Plugin für Shopware 6, das die Farbe des „In den Warenkorb“-Buttons ändert",
+      "en-GB": "A plugin for Shopware 6 that changes the color of the 'Add to Cart' button "
+  },
+    "manufacturerLink": {
+      "de-DE": "https://github.com/Aleks-wsdev/ChangeColorCartButton",
+      "en-GB": "https://github.com/Aleks-wsdev/ChangeColorCartButton"
+    },
+    "supportLink": {
+      "de-DE": "https://github.com/Aleks-wsdev/ChangeColorCartButton/issues",
+      "en-GB": "https://github.com/Aleks-wsdev/ChangeColorCartButton/issues"
+    }
+  }
+}

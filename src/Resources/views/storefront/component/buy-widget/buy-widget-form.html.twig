@@ -1,0 +1,13 @@
+{% sw_extends '@Storefront/storefront/component/buy-widget/buy-widget-form.html.twig' %}
+
+{% block buy_widget_buy_button %}
+	{% if page.btnColor %}
+		<div class="d-grid">
+			<button class="btn btn-primary btn-buy" style="background-color: {{page.btnColor}}" title="{{ "detail.addProduct"|trans|striptags }}" aria-label="{{ "detail.addProduct"|trans|striptags }}">
+				{{ "detail.addProduct"|trans|sw_sanitize }}
+			</button>
+		</div>
+	{% else %}
+		{{ parent() }}
+	{% endif %}
+{% endblock %}

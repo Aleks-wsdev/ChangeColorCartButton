@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>#ChangeColorCartButton# Settings</title>
+        <title lang="de-DE">#ChangeColorCartButton# Einstellungen</title>
+
+        <input-field type="single-select">
+            <name>color</name>
+            <label lang="en-GB">Set the button color</label>
+            <label lang="de-DE">Legen Sie die Schaltflächenfarbe fest</label>
+
+            <options>
+                <option>
+                    <id>red</id>
+                    <name lang="en-GB">Red</name>
+                    <name lang="de-DE">Rot</name>
+                </option>
+                <option>
+                    <id>green</id>
+                    <name lang="en-GB">Green</name>
+                    <name lang="de-DE">Grün</name>
+                </option>
+                <option>
+                    <id>blue</id>
+                    <name lang="en-GB">Blue</name>
+                    <name lang="de-DE">Blau</name>
+                </option>
+            </options>
+            <defaultValue>gray</defaultValue>
+        </input-field>
+    </card>
+</config>
